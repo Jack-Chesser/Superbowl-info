@@ -1,5 +1,5 @@
 body {
-  background-color: #f2f4f7;
+  background-color: hsl(216, 92%, 24%);
   font-family: sans-serif;
 }
 
@@ -9,4 +9,20 @@ h1, h2, h3 {
 
 p {
   line-height: 1.5;
+}
+
+
+/* team-name style*/
+.team-name {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Styles for small section titles */
+.subheader {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
 }
