@@ -4,6 +4,12 @@ body {
   font-family: sans-serif;
 }
 
+/* Make links visible on dark background */
+a {
+  color: white;
+  text-decoration: underline;
+}
+
 h1, h2, h3 {
   text-align: center;
 }
