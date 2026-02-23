@@ -12,67 +12,74 @@
   </head>
 
   <body>
+    <div class="container mt-4">
+      <!--Header: Page Title -->
+      <header class="text-center mb-4">
+        <h1>Super Bowl 60</h1>
+        <p class="lead">An overview of the matchup, key players, and moments to watch</p>
+      </header>
 
-    <!--Header: Page Title -->
-    <header>
-      <h1>Super Bowl 60</h1>
-    </header>
+      <main>
 
-    <main>
+        <!-- Image for the Super Bowl -->
+        <figure>
+          <img src="images/Superbowlpic-HTMLProject.jpg" 
+               alt="Promotional image for Super Bowl 60" 
+               width="400">
+        </figure>
 
-      <!-- Image for the Super Bowl -->
-      <figure>
-        <img src="images/Superbowlpic-HTMLProject.jpg" 
-             alt="Promotional image for Super Bowl 60" 
-             width="400">
-      </figure>
+        <!-- Section Game Overview -->
+        <section>
+          <h2 class="subheader">Game Overview</h2>
+          <p class="fs-5">Superbowl 60 is bound to be a great matchup. The favored Seahawks have odds of -230 leaving the Patriots with +190 odds.</p>
+          <p class="fs-5">Leading the Seahawks is Sam Darnold who will be throwing to JSN. Leading the Patriots will be Drake Maye who will be utilising TreVeyon Henderson.</p>
+        </section>
 
-      <!-- Section Game Overview -->
-      <section>
-        <h2 class="subheader">Game Overview</h2>
-        <p>Superbowl 60 is bound to be a great matchup. The favored Seahawks have odds of -230 leaving the Patriots with +190 odds.</p>
-        <p>Leading the Seahawks is Sam Darnold who will be throwing to JSN. Leading the Patriots will be Drake Maye who will be utilising TreVeyon Henderson.</p>
-      </section>
+        <!-- Section Key Players for Each Team -->
+        <section class="mb-4">
+          <h2 class="text-center mb-3">Key Players</h2>
 
-      <!-- Section Key Players for Each Team -->
-      <section>
-        <h2>Key Players</h2>
+          <div class="row">
+            <!-- Seahawks Column -->
+            <div class="col-md-6">
+              <h3 class="team-name">Seahawks</h3>
+              <ul class="fs-5">
+                <li>Sam Darnold (QB)</li>
+                <li>Jaxon Smith-Njigba ("JSN")</li>
+                <li>Kenneth Walker 3rd</li>
+                <li>Leonard Williams</li>
+              </ul>
+            </div>
 
-        <!-- Seahawks Roster Highlights -->
-        <h3 class="team-name">Seahawks</h3>
-        <ul>
-          <li>Sam Darnold (QB)</li>
-          <li>Jaxon Smith-Njigba ("JSN")</li>
-          <li>Kenneth Walker 3rd</li>
-          <li>Leonard Williams</li>
-        </ul>
+            <!-- Patriots Column -->
+            <div class="col-md-6">
+              <h3 class="team-name">Patriots</h3>
+              <ul class="fs-5">
+                <li>Drake Maye (QB)</li>
+                <li>TreVeyon Henderson</li>
+                <li>Stephon Diggs</li>
+                <li>Christian Gonzalez</li>
+              </ul>
+            </div>
+          </div>
+        </section>
 
-        <!-- Patriots Roster Highlights -->
-        <h3 class="team-name">Patriots</h3>
-        <ul>
-          <li>Drake Maye (QB)</li>
-          <li>TreVeyon Henderson</li>
-          <li>Stephon Diggs</li>
-          <li>Christian Gonzalez</li>
-        </ul>
-      </section>
+        <!-- Section Important Moments to Watch -->
+        <section class="mb-4">
+          <h2 class="text-center mb-3">Moments to Watch</h2>
+          <ol class="fs-5">
+            <li>Starting drive</li>
+            <li>2 minute warning</li>
+            <li>Halftime show</li>
+          </ol>
+        </section>
 
-      <!-- Section Important Moments to Watch -->
-      <section>
-        <h2>Moments to Watch</h2>
-        <ol>
-          <li>Starting drive</li>
-          <li>2 minute warning</li>
-          <li>Halftime show</li>
-        </ol>
-      </section>
+      </main>
 
-    </main>
-
-    <!-- Navigation to Page 2 -->
-    <footer>
-      <a href="page2.html">Learn more about the Super Bowl matchup</a>
-    </footer>
-
+      <!-- Navigation to Page 2 -->
+      <footer class="mt-4">
+        <a href="page2.html" class="btn btn-primary d-incline-block">Learn more about the Super Bowl matchup</a>
+      </footer>
+    </div>
   </body>
 </html>
