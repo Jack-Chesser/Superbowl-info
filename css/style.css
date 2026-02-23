@@ -10,16 +10,12 @@ a {
   text-decoration: underline;
 }
 
-h1, h2, h3 {
-  text-align: center;
-}
-
+/* Improve paragraph readability */
 p {
   line-height: 1.5;
 }
 
-
-/* team-name style*/
+/* team-name style */
 .team-name {
   font-size: 24px;
   font-weight: bold;
@@ -43,8 +39,9 @@ p {
 
   /* preventing images from being too large */
   img {
-    width: 90% ;
+    width: 90%;
   }
+
   h1 {
     font-size: 28px;
   }
